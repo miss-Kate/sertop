@@ -1,0 +1,346 @@
+@media(max-width:1600px){
+    .content_footer{
+        right: 166px;
+    }
+    .title_nav {
+        justify-content: space-around;
+    }
+    .navigation {
+        justify-content: flex-start;
+    }
+    
+}
+
+
+
+@media(max-width:1280px){
+    *{
+        font-size: 12px;
+    }
+    .content_footer {
+        bottom: 2px;
+        left: 0px;
+    
+    }
+    .smi {
+        width: 70px;
+        height: 70px;
+        font-size: 13px;
+        padding: 25px;
+    }
+    .event {
+        width: 143px;
+        height: 70px;
+        font-size: 13px;
+        padding-top: 25px;
+        padding-left: 50px;
+    }
+    .event_busines {
+        width: 300px;
+        height: 70px;
+        
+    }
+
+.event_breackfust {
+    font-size: 13px;
+}
+.event_option {
+    font-size: 12px;
+    
+}
+.event_option > h5 {
+    font-size: 12px;
+   
+}
+.content_article {
+    width: 300px;
+    height: 200px;
+    font-size: 20px;
+    left: 283px;
+    bottom: 72px;
+}
+.btn_play {
+    top: 5px;
+    
+}
+.content_sqare{
+    width: 60px;
+    height: 60px;
+}
+.content_play > img{
+    width: 40px;
+}
+.content_article >div > strong {
+    font-size: 20px;
+    font-weight: 500;
+}
+.content_article > div {
+    font-size: 16px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+}
+@media(max-width:992px){
+    * {
+        font-size: 10px;
+    }
+    .navigation_list > img {
+        width: 185px;
+
+    }
+    .navigation_phone > img{
+        width: 20px;
+    }
+    .navigation_btn {
+        width: 80px;
+        font-size: 10px;
+    }
+    .navigation_item {
+        margin-right: 10px;
+    }
+    .content_article {
+        left: 146px;
+        bottom: 77px;
+    }
+    
+    .content_footer {
+        bottom: 2px;
+        left: -23px;
+    }
+    .smi {
+        width: 75px;
+        height: 75px;
+        font-size: 12px;
+        padding: 30px;
+    }
+    .event {
+        width: 150px;
+        height: 75px;
+        font-size: 12px;
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    .event_busines {
+        width: 250px;
+        height: 75px;
+    }
+    .event_breackfust {
+        font-size: 12px;
+    }
+    .event_option {
+    font-size: 10px;
+    }
+}
+@media(max-width:768px){
+    * {
+        font-size: 8px;
+    }
+    .navigation_item {
+        margin-right: 5px;
+    }
+
+    .nav_list {
+        margin-right: 5px;
+    }
+    .contacs_list {
+        flex-direction: row;
+        align-content: stretch;
+        align-items: center;
+    }
+    .geo{
+        width: 10px;
+        height: 12px;
+    }
+
+    .item_contacs_phone > a {
+        display: block;
+        width: 60px;
+        font-size: 8px;
+    }
+    .navigation_list {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .navigation_list > img {
+        width: 100px;
+    }
+    .navigation_btn {
+        width: 60px;
+        font-size: 7px;
+        height: 30px;
+    }
+    .btn_scroll{
+        font-size: 10px;
+    }
+    .content_article {
+        left: 133px;
+        bottom: 45px;
+        width: 200px;
+        height: 150px;
+    }
+    .content_article > div {
+        font-size: 12px;
+    }
+    .content_article >div > strong {
+        font-size: 14px;
+    }
+    .btn_play{
+        width: 30px;
+    }
+    .content_sqare{
+        width: 30px;
+        height: 30px;
+    }
+    .content_play > img{
+        width: 15px;
+    }
+    .content_play {
+        top: 6px;
+        left: 7px;
+    }
+    .img_logo > img{
+        width: 35px;
+        height: 30px;
+    }
+    .content_footer {
+        bottom: 2px;
+        left: 20px;
+    }
+    .smi {
+        width: 45px;
+        height: 45px;
+        font-size: 10px;
+        padding: 17px;
+    }
+    .event {
+        width: 75px;
+        height: 45px;
+        font-size: 10px;
+        padding-top: 17px;
+        padding-left: 17px;
+    }.event_busines {
+        width: 200px;
+        height: 45px;
+    }
+    .event_breackfust {
+        font-size: 10px;
+    }
+    .event_option > h5 {
+        font-size: 10px;
+    }
+    .event_option {
+        font-size: 7px;
+    }
+
+}
+@media(max-width:480px){
+    * {
+        font-size: 5px;
+    }
+    .geo {
+        width: 5px;
+        height: 7px;
+    }
+    .item_contacs_phone > a {
+        display: block;
+        width: 50px;
+        font-size: 5px;
+    }
+    .navigation_list > img {
+        width: 80px;
+    }
+    .btn-more {
+        width: 25px;
+    }
+    .navigation_phone > img {
+        width: 15px;
+    }
+    .navigation_list {
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .navigation_btn {
+        width: 40px;
+        font-size: 5px;
+        height: 20px;
+    }
+    .content_article > div {
+        font-size: 5px;
+    }
+    .content_article >div > strong {
+        font-size: 8px;
+    }
+    .content_article > div {
+        font-size: 5px;
+    }
+    .content_sqare {
+        width: 15px;
+        height: 15px;
+    }
+    .content_play {
+        top: 3px;
+        left: 3px;
+    }
+    .content_play > img {
+        width: 10px;
+    }
+    .img_logo > img {
+        width: 25px;
+        height: 25px;
+    }
+    .btn_play{
+        height: 15px;
+        align-items: center;
+    }
+    .content_article {
+        left: 85px;
+        bottom: 36px;
+        width: 100px;
+        height: 102px;
+    }
+    .content_footer {
+        bottom: 16px;
+        width: 200px;
+        height: 20px;
+        left: 85px;
+    }
+    
+    .smi {
+        width: 35px;
+        height: 35px;
+        font-size: 7px;
+        padding: 13px;
+        padding-right: 13px;
+    }
+    .event {
+        width: 65px;
+        height: 35px;
+        font-size: 7px;
+        padding-top: 13px;
+        padding-left: 3px;
+    }
+    .event_busines {
+        width: 170px;
+        height: 35px;
+    }
+    .event_breackfust {
+        font-size: 7px;
+        padding: 11px;
+    }
+    .event_option {
+        font-size: 5px;
+    }
+    .event_option > h5 {
+        font-size: 7px;
+    }
+    .myslyde > img{
+        width: 100%;
+    }
+
+
+}
+
